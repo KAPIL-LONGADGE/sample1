@@ -19,7 +19,7 @@ from testapp import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^date/', views.date_time_view),
+    url(r'^time/', views.date_time_view),
 
         ]
 
